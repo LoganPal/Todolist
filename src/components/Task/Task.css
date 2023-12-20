@@ -1,0 +1,17 @@
+.completed-task td{
+    background-color: rgb(39, 152, 48) !important; 
+    color: #11a93f;
+}
+
+table tr{
+  overflow-wrap: anywhere!important;
+}
+
+.table-success {
+    background-color: #d4edda; /* Bootstrap success background color */
+  }
+  
+
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger background color */
+  }
