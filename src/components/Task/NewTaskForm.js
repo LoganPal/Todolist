@@ -25,9 +25,9 @@ function NewTaskForm({ onSubmit }) {
           id="title"
           name="title"
           value={title}
-          onChange={(e) => setTitle(e.target.value)}
+          onChange={(e) => setTitle(e.target.value)} /* Initialisation de la valeur de title*/
           className="form-control"
-		  placeholder="Enter Task title here"
+		  placeholder="Enter Task title here" 
           required
         />
       </div>
@@ -41,7 +41,7 @@ function NewTaskForm({ onSubmit }) {
           id="description"
           name="description"
           value={description}
-          onChange={(e) => setDescription(e.target.value)}
+          onChange={(e) => setDescription(e.target.value)} /* Initialisation de la valeur de description*/
           className="form-control"
 		  row="3"
 		  placeholder="Enter Task description here"
